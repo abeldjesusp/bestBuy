@@ -1,0 +1,154 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segAppMenu",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ife97518c3024b598dd6ac081807fab9",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "Label0fdfd4cdf71ae45": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Home"
+                },
+                "imgAppMenu": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "appmenuhome.png"
+                }
+            },
+            {
+                "Label0fdfd4cdf71ae45": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Stores"
+                },
+                "imgAppMenu": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "appmenustore.png"
+                }
+            },
+            {
+                "Label0fdfd4cdf71ae45": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Cart"
+                },
+                "imgAppMenu": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "appmenucart.png"
+                }
+            }
+        ],
+        "rowTemplateId": "bc4e071bc350478bb0d6b2a25fb45020",
+        "rowtemplate": "flxAppMenu",
+        "widgetdatamap": {
+            "Label0fdfd4cdf71ae45": "Label0fdfd4cdf71ae45",
+            "flxAppMenu": "flxAppMenu",
+            "imgAppMenu": "imgAppMenu",
+            "lblTextAppMenu": "lblTextAppMenu"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "appMenu",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 2,
+    "rowfocusskin": "s0b47497c9234578a6a8f5a710cfd85d",
+    "rowskin": "sae9af8b3daa4d1b8c2e30fc60948fbc",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sa89974363ae4ae5a9aa0ff0f6db1bef",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "Label0fdfd4cdf71ae45": "Label0fdfd4cdf71ae45",
+        "flxAppMenu": "flxAppMenu",
+        "imgAppMenu": "imgAppMenu",
+        "lblTextAppMenu": "lblTextAppMenu"
+    },
+    "zindex": 1
+}

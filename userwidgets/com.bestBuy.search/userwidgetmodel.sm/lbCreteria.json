@@ -1,0 +1,97 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "<Select a value>",
+    "_skin_": "s091618a78104a1b83d1ed0e9dbd7aef",
+    "_top_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "listboxarw.png",
+    "focusskin": "s7c543b6e2704924ae3084c02290fc6f",
+    "groupcells": false,
+    "id": "lbCreteria",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e3ac7b7ffc064159abcb5467cf371d8a",
+    "masterdata": [
+        [
+            "1",
+            "<Select a value>"
+        ],
+        [
+            "2",
+            "On Sale"
+        ],
+        [
+            "3",
+            "Not On Sale"
+        ],
+        [
+            "4",
+            "New"
+        ],
+        [
+            "5",
+            "Not New"
+        ],
+        [
+            "6",
+            "Free Shipping"
+        ],
+        [
+            "7",
+            "No Free Shipping"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxFilterArea",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "1",
+        "<Select a value>"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

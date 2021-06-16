@@ -1,0 +1,51 @@
+{
+    "keys": [
+        "btnAddToCart",
+        "lblTextNoReviews",
+        "lblTextTotalReview"
+    ],
+    "locales": {
+        "de": {
+            "i18nStrings": {
+                "btnAddToCart": "In den Warenkorb legen",
+                "lblTextNoReviews": "Keine Bewertungen",
+                "lblTextTotalReview": "Gesamtzahl der Bewertungen:"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "en_US": {
+            "i18nStrings": {
+                "btnAddToCart": "Add To Cart",
+                "lblTextNoReviews": "No reviews",
+                "lblTextTotalReview": "Total Number Of Reviews:"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "es": {
+            "i18nStrings": {
+                "btnAddToCart": "Agregar al carrito",
+                "lblTextNoReviews": "No hay reseñas",
+                "lblTextTotalReview": "Número total de reseñas:"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        }
+    }
+}

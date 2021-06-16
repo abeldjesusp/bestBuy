@@ -1,0 +1,174 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_android_": {},
+    "_androidwearos_": {},
+    "_children_": [],
+    "_desktopweb_": {},
+    "_height_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_ipad_": {},
+    "_iphone_": {},
+    "_kiosk_": {},
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s9e375c0aee34a21a6dbd8a5de407377",
+    "_spa_": {},
+    "_spaan_": {},
+    "_spaandroidtablet_": {},
+    "_spabb_": {},
+    "_spaip_": {},
+    "_spaipad_": {},
+    "_spamobile_": {},
+    "_spatablet_": {},
+    "_spawindowstablet_": {},
+    "_spawinphone8_": {},
+    "_tabrcandroid_": {},
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_vizProps_": {
+        "hidewidgethierarchy": false
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_windows10_": {},
+    "_windows8_": {},
+    "_winphone10_": {},
+    "_winphone8_": {},
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "flxBackButton": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d55aa571eb764f04badeb78862f3be4f",
+                "srcKUID": "ea1ca725ddf84bf79ef1177b450b527b",
+                "wType": "FlexContainer"
+            },
+            "isVisible": true
+        },
+        "flxLineMenu": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "je0e38d375ee4dca9769b4758f07b98f",
+                "srcKUID": "c87c0dfe637d49c09059d3fab8caa30e",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxLogo": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j8536a9f29ba4e6dbd2420877e1be3d3",
+                "srcKUID": "ab1c8bde6d724f33af8794d6ea5a29d7",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMenuButton": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fc4a66d7fb364089893988c5449c9901",
+                "srcKUID": "b0b69b9977e849409ac15ff2c1d02471",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSearchButton": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b0be94fe948249ce9ea130e6b717208d",
+                "srcKUID": "e731908c05794dfe91a0b2d4f0847828",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false
+        },
+        "imgBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f946c88acea840969eb1cd1cc2249380",
+                "srcKUID": "a68967306fea45fdb258d4885fd31bcf",
+                "wType": "Image"
+            },
+            "src": "ic_menu_back.png"
+        },
+        "imgLogo": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b4e0f83a300b43e0b75e5496bbaea6df",
+                "srcKUID": "h022c60911f24355ae21916bf30a983f",
+                "wType": "Image"
+            },
+            "src": "bestbuy.png"
+        },
+        "imgMenuButton": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "iceead2c54da43d6b86fae5eca0a61ec",
+                "srcKUID": "ffe618fd7fdb4222be10a68467fa7dbb",
+                "wType": "Image"
+            },
+            "src": "humburger.png"
+        },
+        "imgSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ef9e6c57d2fd45eda1fac706bae04002",
+                "srcKUID": "j02d750f402d4fc0bc64478f3b2d9626",
+                "wType": "Image"
+            },
+            "src": "search.png"
+        },
+        "navbar": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "fbc71f596bab4af8afc7fef037244e5c",
+                "srcKUID": "b55b81ccd2514f9a86cd1507a5cdd814",
+                "wType": "FlexContainer"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "navbar",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "fbc71f596bab4af8afc7fef037244e5c",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxProductListContainer",
+    "pf": "frmProductList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "b55b81ccd2514f9a86cd1507a5cdd814",
+    "wType": "UserWidgetInstance"
+}

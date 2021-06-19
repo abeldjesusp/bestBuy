@@ -57,6 +57,12 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "e82b06da48cb410783ef71d2dda5778d",
+    "landscape": {
+        "left": {
+            "type": "string",
+            "value": "25dp"
+        }
+    },
     "name": "kony.ui.Label",
     "parent": "flxBreadCrumbs",
     "pf": "frmHome",

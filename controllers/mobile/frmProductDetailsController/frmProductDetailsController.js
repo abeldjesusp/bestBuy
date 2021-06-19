@@ -1,10 +1,12 @@
 define(function(){ 
-  var product;
+  var product = null;
   
   return({
 	onNavigate : function(context){
       if(context){
         product = context;
+        let productPrice = null;
+        let lblTextTotalReview = kony.i18n.getLocalizedString("lblTextTotalReview");
         
         this.view.loading.isVisible = true;
         this.view.flxProductDatailContent.isVisible = false;
@@ -14,8 +16,9 @@ define(function(){
         this.view.navbar.flxBackButton.onTouchEnd = this.navigateToPreviousForm;
         
         this.view.lblProductTitle.text = context.lblProductName;
-        this.view.lblProductPrice.text = context.productOnSale === 'true' ? 'On Sale! '+context.lblProductPrice.text : context.lblProductPrice.text;
-        this.view.lblProductAvg.text = 'Avg review: '+context.productAvgRating;
+        this.view.lblProductPrice.text = context.productOnSale === 'true' ? 'On Sale! '+context.lblProductPrice.text: context.lblProductPrice.text;
+        this.view.lblProductPrice.skin = context.lblProductPrice.skin;
+        this.view.lblProductAvg.text = context.productAvgRating !== '' ? 'Avg review: '+context.productAvgRating : '';
         this.view.lblProductDescripcion.text = context.productLongDescription;
         this.view.imgProduct.src = context.imgProduct;     
         this.view.imgStarRating.src = this.setImageStarRating(context.productAvgRating);
@@ -28,7 +31,7 @@ define(function(){
         this.view.btnAddToCart.onClick = this.addToCart;
         
         if(context.productCustomerReviewCount.length > 0) {
-          this.view.lblTotalReview.text = context.productCustomerReviewCount;
+          this.view.lblTextTotalReview.text = lblTextTotalReview+" "+context.productCustomerReviewCount;
           this.view.flxUpArrow.onTouchEnd = this.panelUp;
           this.view.flxDownArrow.onTouchEnd = this.panelDown;
           this.getReviews(context.productSKU);
@@ -56,7 +59,7 @@ define(function(){
       res.reviews.map(review => {
         data.push({
           lblReviewTitle: review.title,
-          lblReviewReviwerName: review.name,
+          lblReviewReviwerName: 'Submited by: '+review.name,
           imgRating: this.setImageStarRating(review.rating),
           lblReviewText: review.comment
         });
@@ -114,7 +117,7 @@ define(function(){
       
       var animDefinitionPanel = {
         "0": {
-          "bottom": "-70%"
+          "bottom": "-90%"
         },
         "100": {
           "bottom": "25%"
@@ -152,10 +155,10 @@ define(function(){
       
       var animDefinitionPanel = {
         "0": {
-          "bottom": "20%"
+          "bottom": "25%"
         },
         "100": {
-          "bottom": "-70%"
+          "bottom": "-90%"
         }
       };
       

@@ -22,11 +22,11 @@
         0,
         0
     ],
-    "_skin_": "s7d40ad29e1e4675bc21e700334cbed1",
+    "_skin_": "s75615e05495422fb7a19c99268e4d44",
     "_text_": "$150",
     "_top_": {
         "type": "string",
-        "value": "72dp"
+        "value": "40%"
     },
     "_width_": {
         "type": "ref",
@@ -57,6 +57,16 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "bfc8c8d1422e421bb775ffcd536d7e74",
+    "landscape": {
+        "left": {
+            "type": "string",
+            "value": "0%"
+        },
+        "top": {
+            "type": "string",
+            "value": "47%"
+        }
+    },
     "name": "kony.ui.Label",
     "parent": "flxProductInfo",
     "pf": "frmProductDetails",

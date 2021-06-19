@@ -35,17 +35,39 @@
     "canUpdateUI": true,
     "centery": {
         "type": "string",
-        "value": "50.03%"
+        "value": "50%"
     },
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "s236d3d65b014d1597b8b4e74d93413b",
+    "focusskin": "s7ed338867df49d68747a5713f607a12",
     "id": "btnAddToCart",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "ec98a2cb1c21485990fc8e3d1ddbabe5",
+    "landscape": {
+        "centerY": {
+            "type": "string",
+            "value": "50%"
+        },
+        "height": {
+            "type": "string",
+            "value": "30dp"
+        },
+        "left": {
+            "type": "string",
+            "value": "5%"
+        },
+        "top": {
+            "type": "string",
+            "value": ""
+        },
+        "width": {
+            "type": "string",
+            "value": "90%"
+        }
+    },
     "name": "kony.ui.Button",
     "parent": "flxProductButton",
     "pf": "frmProductDetails",

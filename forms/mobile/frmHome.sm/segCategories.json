@@ -13,7 +13,7 @@
             },
             "lblIcon": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
+                "text": ">"
             }
         }
     ],
@@ -67,7 +67,7 @@
     },
     "iphone": {
         "psp": {
-            "indicator": "rowselect"
+            "indicator": "none"
         }
     },
     "iscustomlayout": false,
@@ -88,8 +88,8 @@
     "retainselection": false,
     "rowTemplateId": "gf7e5f57f2fb4c11a2ba175edccce14f",
     "rowcounter": 0,
-    "rowfocusskin": "s0b47497c9234578a6a8f5a710cfd85d",
-    "rowskin": "s1c54762ae254f57ac7491cb5501d1de",
+    "rowfocusskin": "s063273fc89248cfa8db134af03bd3c6",
+    "rowskin": "s87f709070d744f890cacfa623435900",
     "rowtemplate": "flxRowCategories",
     "screenlevelwidget": false,
     "seccounter": 0,

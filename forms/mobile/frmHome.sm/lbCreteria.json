@@ -26,7 +26,7 @@
     "_skin_": "s091618a78104a1b83d1ed0e9dbd7aef",
     "_top_": {
         "type": "string",
-        "value": "25%"
+        "value": "5%"
     },
     "_width_": {
         "type": "string",
@@ -42,7 +42,13 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e3ac7b7ffc064159abcb5467cf371d8a",
+    "kuid": "f17ffe4888b54e8aaa470d7d4d0a6699",
+    "landscape": {
+        "left": {
+            "type": "string",
+            "value": "4%"
+        }
+    },
     "masterdata": [
         [
             "1",
@@ -74,8 +80,8 @@
         ]
     ],
     "name": "kony.ui.ListBox",
-    "parent": "flxFilterArea",
-    "pf": "userwidgetmodel",
+    "parent": "flxContainerLB",
+    "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "selectedkey": "1",

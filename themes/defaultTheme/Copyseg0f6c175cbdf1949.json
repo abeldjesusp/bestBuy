@@ -10,7 +10,7 @@
   "border_color": "000000ff",
   "border_style": "plain",
   "border_type": 0,
-  "border_width": 1,
+  "border_width": 0,
   "desktopweb": {
     "font_name": "Helvetica"
   },
@@ -24,7 +24,7 @@
   "kiosk": {
     "font_name": "None"
   },
-  "kuid": "s410d2ceb22b4129a4dd1fbb8e52f839",
+  "kuid": "s87f709070d744f890cacfa623435900",
   "spaan": {
     "font_name": "Helvetica"
   },
@@ -49,7 +49,7 @@
   "tabrcandroid": {
     "font_name": "default"
   },
-  "wType": "FlexContainer",
+  "wType": "Segment",
   "watchos": {
     "font_name": "System"
   },

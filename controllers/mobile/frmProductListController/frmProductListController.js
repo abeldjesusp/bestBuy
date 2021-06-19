@@ -42,9 +42,9 @@ define(function(){
         if(res.products.length > 0) {
           // mapear products
           res.products.map(prod => { 
-            var productPrice = '';
-            var shippingBanner = '';
-            var price = '';
+            let productPrice = '';
+            let shippingBanner = '';
+            let price = '';
 
             // validate if it's onsale
             if(prod.product.onSale === 'true'){
@@ -69,11 +69,10 @@ define(function(){
             }
 
             data.push({
-              flxArrow: '>',
               productCustomerReviewCount: prod.product.customerReviewCount,
               lblProductName: prod.product.name,
               imgProduct: prod.product.image,
-              lblProductRating: 'Avg User Rating: '+prod.product.customerReviewAverage,
+              lblProductRating: prod.product.customerReviewAverage !== '' ? 'Avg User Rating: '+prod.product.customerReviewAverage : '',
               productAvgRating: prod.product.customerReviewAverage,
               lblProductPrice: productPrice,
               lblFreeShipping: prod.product.freeShipping === 'true' ? "!!! Free Shipping !!!" : '',

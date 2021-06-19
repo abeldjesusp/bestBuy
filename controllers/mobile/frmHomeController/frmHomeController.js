@@ -9,8 +9,10 @@ define(function(){
         this.view.navbar.flxBackButton.isVisible = false;
         this.view.lblBreadCrumbsText.text = 'Home';
         this.view.navbar.flxSearchButton.onTouchEnd = this.searchButton;
-        this.view.flxContainerSearch.search.lblCancel.onTouchEnd = this.cancelSearchButton;
-        this.view.flxContainerSearch.search.tbSearch.onDone = this.getSearch;
+        this.view.flxContainerSearch.isVisible = false;
+        this.view.flxContainerSearch.bottom = '-100%';
+        this.view.flxContainerSearch.lblCancel.onTouchEnd = this.cancelSearchButton;
+        this.view.flxContainerSearch.tbSearch.onDone = this.getSearch;
         this.view.navbar.flxMenuButton.onTouchEnd = this.openAppMenu;
         this.view.flxMenuOverlay.onTouchEnd = this.closeAppMenu;
         this.getCategory('cat00000');
@@ -100,14 +102,10 @@ define(function(){
     },
     searchButton : function(){
       this.view.flxContainerSearch.isVisible = true;
-      var transformObject = kony.ui.makeAffineTransform();
-
-      // Add a translation and a scale.					
-      transformObject.translate(10, 0);
       
       //Create the animation configuration.
       var animationConfig = {
-        "duration": 1,
+        "duration": 0.6,
         "iterationCount": 1,
         "delay": 0,
         "fillMode": kony.anim.FILL_MODE_FORWARDS
@@ -126,14 +124,9 @@ define(function(){
       this.view.flxContainerSearch.animate(animDef, animationConfig);
     },
     cancelSearchButton : function(){
-      var transformObject = kony.ui.makeAffineTransform();
-
-      // Add a translation and a scale.					
-      transformObject.translate(10, 0);
-      
       //Create the animation configuration.
       var animationConfig = {
-        "duration": 1,
+        "duration": 0.6,
         "iterationCount": 1,
         "delay": 0,
         "fillMode": kony.anim.FILL_MODE_FORWARDS
@@ -157,45 +150,54 @@ define(function(){
     getSearch : function(eventObject){
       let searchText = eventObject.text;
       let criteria = '';
+      var expreg = /[^A-Za-z 0-9]/g;
       
-      switch(Number(this.view.flxContainerSearch.search.lbCreteria.selectedKey)){
-        case 1:
-          criteria = '';
-          break;
-        case 2:
-          criteria = '&onSale=true';
-          break;
-        case 3:
-          criteria = '&onSale=false';
-          break;
-        case 4:
-          criteria = '&new=true';
-          break;
-        case 5:
-          criteria = '&new=false';
-          break;
-        case 6:
-          criteria = '&freeShipping=true';
-          break;
-        case 7:
-          criteria = '&freeShipping=false';
-          break;
-        default:
-          criteria = '';
-          break;
+      if(searchText === '' || searchText === undefined || searchText === null){
+        alert('Cannot be Empty.');
+      } else if(expreg.test(searchText)){
+        alert('Invalid character.');
+      } else if (!searchText.replace(/\s/g, '').length) {
+        alert('Only contains whitespace (ie. spaces, tabs or line breaks).');
+      } else {
+        switch(Number(this.view.flxContainerSearch.lbCreteria.selectedKey)){
+          case 1:
+            criteria = '';
+            break;
+          case 2:
+            criteria = '&onSale=true';
+            break;
+          case 3:
+            criteria = '&onSale=false';
+            break;
+          case 4:
+            criteria = '&new=true';
+            break;
+          case 5:
+            criteria = '&new=false';
+            break;
+          case 6:
+            criteria = '&freeShipping=true';
+            break;
+          case 7:
+            criteria = '&freeShipping=false';
+            break;
+          default:
+            criteria = '';
+            break;
+        }
+
+        var navToProduct = new kony.mvc.Navigation('frmProductList');
+        var product = {
+          searchText,
+          criteria
+        };
+        searchCriteria = searchText+criteria;
+        getCategoryBy = 'search';
+
+        this.view.flxContainerSearch.tbSearch.text = '';
+        this.view.flxContainerSearch.lbCreteria.selectedKey = '1';
+        navToProduct.navigate(product);
       }
-      
-      var navToProduct = new kony.mvc.Navigation('frmProductList');
-      var product = {
-        searchText,
-        criteria
-      };
-      searchCriteria = searchText+criteria;
-      getCategoryBy = 'search';
-      
-      this.view.flxContainerSearch.search.tbSearch.text = '';
-      this.view.flxContainerSearch.search.lbCreteria.selectedKey = 1;
-      navToProduct.navigate(product);
     },
     openAppMenu : function(){      
       this.view.flxContainerAppMenu.animate(animDefinition("-80%","0%"), animationConfig());

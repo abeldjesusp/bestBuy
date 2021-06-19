@@ -36,8 +36,8 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "tbSearch",
-        "lblCancel"
+        "flxContainerTB",
+        "flxContainerCancel"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -46,11 +46,17 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d2531d2882554b7f99c9e47c97eabe7c",
+    "kuid": "b775ba03092242999a91c69f6a555bfa",
+    "landscape": {
+        "height": {
+            "type": "string",
+            "value": "20%"
+        }
+    },
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "search",
-    "pf": "userwidgetmodel",
+    "parent": "flxContainerSearch",
+    "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

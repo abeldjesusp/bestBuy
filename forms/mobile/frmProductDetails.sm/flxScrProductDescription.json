@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "72%"
+        "value": "25%"
     },
     "_left_": {
         "type": "string",
@@ -23,49 +23,62 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s9e375c0aee34a21a6dbd8a5de407377",
+    "_skin_": "sb39df0f08994ce79293ab319e3e5b8d",
     "_top_": {
         "type": "string",
-        "value": "8%"
+        "value": "50%"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "segProduct"
+        "lblProductDescripcion"
     ],
     "clipbounds": true,
     "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
     "enablescrolling": true,
-    "id": "flxSegProducts",
+    "horizontalscrollindicator": true,
+    "id": "flxScrProductDescription",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "hbeecdc33710409a8e9a0bd633b2d4b3",
+    "kuid": "e032e2bf09ce403aa5cb7bb122c91ef5",
     "landscape": {
         "height": {
             "type": "string",
-            "value": "65%"
+            "value": "25%"
         },
-        "top": {
+        "left": {
             "type": "string",
-            "value": "15%"
+            "value": "25%"
+        },
+        "width": {
+            "type": "string",
+            "value": "75%"
         }
     },
     "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
-    "parent": "flxContainerCart",
-    "pf": "frmCart",
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "flxProductDatailContent",
+    "pf": "frmProductDetails",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
+    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "wType": "FlexContainer",
+    "track": false,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
     "widgetalignment": 1,
-    "zindex": 10
+    "zindex": 1
 }

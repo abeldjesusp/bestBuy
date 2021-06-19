@@ -4,13 +4,9 @@
     "__parentReadjusting__": false,
     "_data_": [
         {
-            "flxArrow": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
             "imgProduct": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": ""
+                "src": "imagedrag.png"
             },
             "lblFreeShipping": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -18,33 +14,15 @@
             },
             "lblProductName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
+                "text": "Coby - 32\" Class (31 - 1/2\" Diag.) - LED - 720p - HDTV  - Black"
             },
             "lblProductPrice": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
+                "text": "$ 249.99"
             },
             "lblProductRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "productAvgRating": {
-                "text": ""
-            },
-            "productCustomerReviewCount": {
-                "text": ""
-            },
-            "productImages": {
-                "text": ""
-            },
-            "productLongDescription": {
-                "text": ""
-            },
-            "productOnSale": {
-                "text": ""
-            },
-            "productSKU": {
-                "text": ""
+                "text": "Avg User Rating: 4.3"
             }
         }
     ],
@@ -126,7 +104,7 @@
     "retainselection": false,
     "rowTemplateId": "g611750fcfbe49b89e883abdd7b52a52",
     "rowcounter": 0,
-    "rowfocusskin": "s0b47497c9234578a6a8f5a710cfd85d",
+    "rowfocusskin": "s063273fc89248cfa8db134af03bd3c6",
     "rowskin": "s1c54762ae254f57ac7491cb5501d1de",
     "rowtemplate": "flexProductList",
     "screenlevelwidget": false,
@@ -150,7 +128,6 @@
     "widgetalignment": 5,
     "widgetdatamap": {
         "flexProductList": "flexProductList",
-        "flxArrow": "flxArrow",
         "flxBanner": "flxBanner",
         "flxColLeft": "flxColLeft",
         "flxColRight": "flxColRight",

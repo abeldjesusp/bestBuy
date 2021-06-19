@@ -11,15 +11,26 @@ define(function(){
     },
     searchStores : function(){
       let search = this.view.tbSearchStore.text;
-
-      let serviceName = "BestBuyADP";
-      let integrationObj = KNYMobileFabric.getIntegrationService(serviceName);
       
-      let operationName =  "findStores";
-      let data= {"city": search,"apiKey": apiKey};
-      let headers= {};
-      integrationObj.invokeOperation(operationName, headers, data, this.operationSuccess, this.operationFailure);
+      var expreg = /[^A-Za-z 0-9]/g;
+      
+      if(search === '' || search === undefined || search === null){
+        alert('Cannot be Empty.');
+      } else if(expreg.test(search)){
+        alert('Invalid character.');
+      } else if (!search.replace(/\s/g, '').length) {
+        alert('Only contains whitespace (ie. spaces, tabs or line breaks).');
+      } else {
+        let serviceName = "BestBuyADP";
+        let integrationObj = KNYMobileFabric.getIntegrationService(serviceName);
 
+        let operationName =  "findStores";
+        let data= {"city": search,"apiKey": apiKey};
+        let headers= {};
+        integrationObj.invokeOperation(operationName, headers, data, this.operationSuccess, this.operationFailure);
+      }
+
+      
     },
     operationSuccess : function(res){
       let locationData = [];

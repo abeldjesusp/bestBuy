@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "40%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -26,30 +26,30 @@
     "_skin_": "s9e375c0aee34a21a6dbd8a5de407377",
     "_top_": {
         "type": "string",
-        "value": "40%"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "70%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblProductDescripcion"
+        "tbSearch"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxProductDescription",
+    "id": "flxContainerTB",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c9257156ca2e4562a99d109066188463",
+    "kuid": "h42b4ea310914a478028523042ff04cb",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxProductDatailContent",
-    "pf": "frmProductDetails",
+    "parent": "flxSearchArea",
+    "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "222dp"
+        "value": ""
     },
     "_margin_": [
         0,
@@ -23,6 +23,10 @@
         0
     ],
     "_placeholder_": "1",
+    "_right_": {
+        "type": "string",
+        "value": "3%"
+    },
     "_skin_": "s091618a78104a1b83d1ed0e9dbd7aef",
     "_width_": {
         "type": "string",
@@ -43,6 +47,20 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "de155222438649269b4498e6f94917e3",
+    "landscape": {
+        "centerY": {
+            "type": "string",
+            "value": "50%"
+        },
+        "left": {
+            "type": "string",
+            "value": ""
+        },
+        "right": {
+            "type": "string",
+            "value": "3%"
+        }
+    },
     "masterdata": [],
     "name": "kony.ui.ListBox",
     "parent": "flxPagination",

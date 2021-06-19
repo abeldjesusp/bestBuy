@@ -90,7 +90,10 @@
                 "wType": "FlexContainer"
             },
             "autogrowMode": {
-                "Default": 0
+                "Default": 0,
+                "landscape": {
+                    "Default": 0
+                }
             },
             "centerX": {
                 "Default": {
@@ -108,6 +111,12 @@
                 "Default": {
                     "type": "string",
                     "value": "72%"
+                },
+                "landscape": {
+                    "Default": {
+                        "type": "string",
+                        "value": "60%"
+                    }
                 }
             },
             "isVisible": false,
@@ -121,6 +130,12 @@
                 "Default": {
                     "type": "string",
                     "value": "18%"
+                },
+                "landscape": {
+                    "Default": {
+                        "type": "string",
+                        "value": "25%"
+                    }
                 }
             },
             "width": {
@@ -138,6 +153,17 @@
     "isdatareferenced": false,
     "isvisible": false,
     "kuid": "e178995a19924b11b9f9d7309d220a67",
+    "landscape": {
+        "autogrowMode": 0,
+        "height": {
+            "type": "string",
+            "value": "60%"
+        },
+        "top": {
+            "type": "string",
+            "value": "25%"
+        }
+    },
     "layouttype": 2,
     "masterType": 0,
     "name": "kony.ui.UserWidgetInstance",

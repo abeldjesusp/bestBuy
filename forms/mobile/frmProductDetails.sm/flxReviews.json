@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "80%"
+        "value": "90%"
     },
     "_left_": {
         "type": "string",
@@ -26,7 +26,7 @@
     "_skin_": "s9e375c0aee34a21a6dbd8a5de407377",
     "_top_": {
         "type": "string",
-        "value": "20%"
+        "value": "10%"
     },
     "_width_": {
         "type": "string",

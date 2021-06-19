@@ -59,6 +59,7 @@
     "_winphone10_": {},
     "_winphone8_": {},
     "areflexpropsreferenced": false,
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "clipbounds": true,
     "containerweight": 0,
@@ -147,6 +148,24 @@
                 "kuid": "cf56317db4b648e9b6182b902ea13103",
                 "srcKUID": "b55b81ccd2514f9a86cd1507a5cdd814",
                 "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0,
+                "landscape": {
+                    "Default": 0
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "8%"
+                },
+                "landscape": {
+                    "Default": {
+                        "type": "string",
+                        "value": "15%"
+                    }
+                }
             }
         }
     },
@@ -158,6 +177,13 @@
     "issegmentchild": false,
     "isvisible": true,
     "kuid": "cf56317db4b648e9b6182b902ea13103",
+    "landscape": {
+        "autogrowMode": 0,
+        "height": {
+            "type": "string",
+            "value": "15%"
+        }
+    },
     "layouttype": 2,
     "masterType": 0,
     "name": "kony.ui.UserWidgetInstance",

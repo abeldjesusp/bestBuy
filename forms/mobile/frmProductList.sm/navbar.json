@@ -148,6 +148,21 @@
                 "kuid": "fbc71f596bab4af8afc7fef037244e5c",
                 "srcKUID": "b55b81ccd2514f9a86cd1507a5cdd814",
                 "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "8%"
+                },
+                "landscape": {
+                    "Default": {
+                        "type": "string",
+                        "value": "15%"
+                    }
+                }
             }
         }
     },
@@ -159,6 +174,12 @@
     "issegmentchild": false,
     "isvisible": true,
     "kuid": "fbc71f596bab4af8afc7fef037244e5c",
+    "landscape": {
+        "height": {
+            "type": "string",
+            "value": "15%"
+        }
+    },
     "layouttype": 2,
     "masterType": 0,
     "name": "kony.ui.UserWidgetInstance",

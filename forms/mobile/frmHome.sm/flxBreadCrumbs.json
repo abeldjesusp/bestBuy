@@ -46,6 +46,12 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "a6e243f65e5341d6891404c2d706fd8b",
+    "landscape": {
+        "top": {
+            "type": "string",
+            "value": "15%"
+        }
+    },
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxHomeContainer",

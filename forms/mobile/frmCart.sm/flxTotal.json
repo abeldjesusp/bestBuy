@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "170dp"
+        "value": "48%"
     },
     "_margin_": [
         0,
@@ -47,6 +47,12 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "cb71e15cdef44f0aa08d2c99d783afb1",
+    "landscape": {
+        "left": {
+            "type": "string",
+            "value": "54%"
+        }
+    },
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxContainerTotal",

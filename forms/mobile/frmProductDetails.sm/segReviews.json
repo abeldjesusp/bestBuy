@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "-70%"
+        "value": "-90%"
     },
     "_data_": [
         {
@@ -190,7 +190,7 @@
     ],
     "_height_": {
         "type": "string",
-        "value": "170dp"
+        "value": "150dp"
     },
     "_indicator_": "none",
     "_left_": {
@@ -240,6 +240,12 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "aef2191148ff4f1685eeeff84328f812",
+    "landscape": {
+        "height": {
+            "type": "string",
+            "value": "80dp"
+        }
+    },
     "masterdata": {},
     "name": "kony.ui.SegmentedUI2",
     "needpageindicator": true,
@@ -276,7 +282,7 @@
     "showscrollbars": true,
     "swipeContext": {
         "currentPage": 0,
-        "imageWidth": 1007,
+        "imageWidth": 966,
         "widthRatio": 0
     },
     "viewtype": "pageview",

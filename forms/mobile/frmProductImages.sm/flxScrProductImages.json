@@ -51,6 +51,16 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "f62b6bbef6de4d5587c1557c129577a5",
+    "landscape": {
+        "height": {
+            "type": "string",
+            "value": "85%"
+        },
+        "top": {
+            "type": "string",
+            "value": "15%"
+        }
+    },
     "layouttype": 2,
     "name": "kony.ui.FlexScrollContainer",
     "pagingenabled": false,

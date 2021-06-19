@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "103dp"
+        "value": "3%"
     },
     "_margin_": [
         1,
@@ -57,6 +57,12 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "ie35779718794ca38360eed1963bae66",
+    "landscape": {
+        "left": {
+            "type": "string",
+            "value": "3%"
+        }
+    },
     "name": "kony.ui.Label",
     "parent": "flxPagination",
     "pf": "frmProductList",

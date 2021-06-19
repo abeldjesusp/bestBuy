@@ -40,6 +40,14 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": ""
+    },
+    "centery": {
+        "type": "string",
+        "value": ""
+    },
     "containerweight": 100,
     "contentalignment": 5,
     "id": "lblTextNoProducts",
@@ -57,6 +65,24 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "c52022bb8c324e338933b7b6d394d814",
+    "landscape": {
+        "centerX": {
+            "type": "string",
+            "value": "50%"
+        },
+        "centerY": {
+            "type": "string",
+            "value": "50%"
+        },
+        "left": {
+            "type": "string",
+            "value": ""
+        },
+        "top": {
+            "type": "string",
+            "value": ""
+        }
+    },
     "name": "kony.ui.Label",
     "parent": "flxEmptyCart",
     "pf": "frmCart",

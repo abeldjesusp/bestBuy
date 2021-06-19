@@ -61,7 +61,7 @@
     },
     "iphone": {
         "psp": {
-            "indicator": "rowselect"
+            "indicator": "none"
         }
     },
     "iscustomlayout": false,
@@ -123,7 +123,7 @@
     "retainflexpositionproperties": false,
     "retainselection": false,
     "rowcounter": 2,
-    "rowfocusskin": "s0b47497c9234578a6a8f5a710cfd85d",
+    "rowfocusskin": "s063273fc89248cfa8db134af03bd3c6",
     "rowskin": "sae9af8b3daa4d1b8c2e30fc60948fbc",
     "rowtemplate": null,
     "screenlevelwidget": false,

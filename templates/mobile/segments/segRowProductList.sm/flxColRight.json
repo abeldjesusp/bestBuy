@@ -38,8 +38,7 @@
     "children": [
         "lblProductName",
         "lblProductPrice",
-        "lblProductRating",
-        "flxArrow"
+        "lblProductRating"
     ],
     "clipbounds": true,
     "containerId": true,

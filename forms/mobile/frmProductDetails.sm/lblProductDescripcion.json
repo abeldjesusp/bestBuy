@@ -57,8 +57,22 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "ea1b4968c4924edcb38287139713fe64",
+    "landscape": {
+        "left": {
+            "type": "string",
+            "value": "0%"
+        },
+        "top": {
+            "type": "string",
+            "value": "0%"
+        },
+        "width": {
+            "type": "string",
+            "value": "100%"
+        }
+    },
     "name": "kony.ui.Label",
-    "parent": "flxProductDescription",
+    "parent": "flxScrProductDescription",
     "pf": "frmProductDetails",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

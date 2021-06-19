@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "15%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "0%"
+        "value": "70%"
     },
     "_margin_": [
         0,
@@ -26,31 +26,30 @@
     "_skin_": "s9e375c0aee34a21a6dbd8a5de407377",
     "_top_": {
         "type": "string",
-        "value": "10%"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "30%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblTextFilter",
-        "lbCreteria"
+        "lblCancel"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxFilterArea",
+    "id": "flxContainerCancel",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f606fba7719d41999f4ff6351663de31",
+    "kuid": "aa01888ac679407eae4d3b87a0848af9",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "search",
-    "pf": "userwidgetmodel",
+    "parent": "flxSearchArea",
+    "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

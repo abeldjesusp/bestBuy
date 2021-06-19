@@ -38,7 +38,7 @@
     "children": [
         "flxProductThumb",
         "flxProductInfo",
-        "flxProductDescription",
+        "flxScrProductDescription",
         "flxProductButton",
         "flxLineButtonProductDetail"
     ],
@@ -50,6 +50,16 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "c41c8d1095e34e678aed33616c32d9d1",
+    "landscape": {
+        "height": {
+            "type": "string",
+            "value": "45%"
+        },
+        "top": {
+            "type": "string",
+            "value": "15%"
+        }
+    },
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxProductDetailsContainer",

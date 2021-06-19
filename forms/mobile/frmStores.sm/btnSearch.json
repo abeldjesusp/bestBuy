@@ -20,13 +20,13 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "15dp"
+        "value": "3%"
     },
     "_skin_": "s7fdfc0780b848218b42e346904607f8",
     "_text_": "Search",
     "_width_": {
         "type": "string",
-        "value": "110dp"
+        "value": "30%"
     },
     "canUpdateUI": true,
     "centery": {
@@ -36,7 +36,7 @@
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "s236d3d65b014d1597b8b4e74d93413b",
+    "focusskin": "sd22800a2dd748a2a40f824cb13a36b1",
     "id": "btnSearch",
     "info": null,
     "iscustomlayout": false,

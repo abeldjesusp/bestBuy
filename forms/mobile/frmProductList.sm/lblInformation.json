@@ -57,6 +57,12 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "j598850ab32344579bafbd434c45436a",
+    "landscape": {
+        "left": {
+            "type": "string",
+            "value": "25dp"
+        }
+    },
     "name": "kony.ui.Label",
     "parent": "flxInformation",
     "pf": "frmProductList",

@@ -6,10 +6,6 @@
         "type": "ref",
         "value": "preferred"
     },
-    "_left_": {
-        "type": "string",
-        "value": "184dp"
-    },
     "_margin_": [
         1,
         1,
@@ -22,12 +18,12 @@
         0,
         0
     ],
-    "_skin_": "s83f932e3e914c4dbb481dcc9ffd0dce",
-    "_text_": ">",
-    "_top_": {
+    "_right_": {
         "type": "string",
-        "value": "39dp"
+        "value": "10%"
     },
+    "_skin_": "s342f9ad16474625ad6f66da7fc26d20",
+    "_text_": "Cancel",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -40,10 +36,13 @@
         }
     },
     "canUpdateUI": true,
-    "containerId": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "flxArrow",
+    "id": "lblCancel",
     "info": null,
     "ipad": {
         "psp": {
@@ -57,10 +56,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f0ea5f3c18e647ae8a85339d6866090a",
+    "kuid": "fad5770f04a74ca2846a76dbbda255cd",
     "name": "kony.ui.Label",
-    "parent": "flxColRight",
-    "pf": "segRowProductList",
+    "parent": "flxContainerCancel",
+    "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

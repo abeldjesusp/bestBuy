@@ -27,7 +27,7 @@
         "type": "string",
         "value": "0%"
     },
-    "_skin_": "s9e375c0aee34a21a6dbd8a5de407377",
+    "_skin_": "se87e651174f478f9fa1e9766ae41d19",
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -36,7 +36,8 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "search"
+        "flxSearchArea",
+        "flxFilterArea"
     ],
     "clipbounds": true,
     "containerweight": 100,

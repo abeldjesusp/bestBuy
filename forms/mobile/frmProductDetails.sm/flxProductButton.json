@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "20%"
+        "value": "25%"
     },
     "_left_": {
         "type": "string",
@@ -26,7 +26,7 @@
     "_skin_": "s9e375c0aee34a21a6dbd8a5de407377",
     "_top_": {
         "type": "string",
-        "value": "80%"
+        "value": "75%"
     },
     "_width_": {
         "type": "string",
@@ -46,6 +46,24 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "b224e59cf9344ddf824a96eab409c018",
+    "landscape": {
+        "height": {
+            "type": "string",
+            "value": "25%"
+        },
+        "left": {
+            "type": "string",
+            "value": "25%"
+        },
+        "top": {
+            "type": "string",
+            "value": "75%"
+        },
+        "width": {
+            "type": "string",
+            "value": "75%"
+        }
+    },
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxProductDatailContent",

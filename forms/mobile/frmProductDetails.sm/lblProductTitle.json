@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "55dp"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
@@ -26,7 +26,7 @@
     "_text_": "Coby - 32\" Class (31-1/2\" Diag.) - LED - 720p - HDTV - Black ",
     "_top_": {
         "type": "string",
-        "value": "20dp"
+        "value": "5%"
     },
     "_width_": {
         "type": "string",
@@ -57,6 +57,20 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "je53366c903e40d8a50862b31ba399cd",
+    "landscape": {
+        "height": {
+            "type": "string",
+            "value": "35dp"
+        },
+        "top": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "width": {
+            "type": "string",
+            "value": "100%"
+        }
+    },
     "name": "kony.ui.Label",
     "parent": "flxProductInfo",
     "pf": "frmProductDetails",

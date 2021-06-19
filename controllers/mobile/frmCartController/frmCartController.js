@@ -5,11 +5,14 @@ define(function(){
       if(cartItems.length > 0){
         let data = [];
         let totalPrice = 0;
-        let isNewProduct = 'false';
+        let isNewProduct = false;
         
         cartItems.map((item) => {
           totalPrice += Number(item.price);
-          isNewProduct = item.productNew;
+          
+          if(item.productNew === 'true'){
+            isNewProduct = true;
+          }
           
           data.push({
             lblProductName: item.productName, 
@@ -23,7 +26,7 @@ define(function(){
         
         this.view.lblTotalPrice.text = totalPrice.toFixed(2);
         
-        if(isNewProduct === 'true'){
+        if(isNewProduct){
              this.view.lblNewProduct.text = 'You have items that are New. Shipping may be delayed.';
         } else {
              this.view.lblNewProduct.text = 'Normal Shipping Schedule.';
@@ -66,7 +69,7 @@ define(function(){
       var transformObject1 = kony.ui.makeAffineTransform();
       var transformObject2 = kony.ui.makeAffineTransform();
       transformObject1.translate(0, 0);
-      transformObject2.translate(100, 0);
+      transformObject2.translate(450, 0);
       var animDefinitionOne = {
         0: {
           "transform": transformObject1
@@ -98,11 +101,27 @@ define(function(){
       
       cartItems.splice(context.rowIndex, 1);
       
+      let isNew = false;
+      
+      cartItems.map(item => {
+        if(item.productNew === 'true'){
+          isNew = true;
+        }
+      });
+      
+      if(isNew){
+        this.view.lblNewProduct.text = 'You have items that are New. Shipping may be delayed.';
+      } else {
+        this.view.lblNewProduct.text = 'Normal Shipping Schedule.';
+      }
+      
       if(cartItems.length < 1){
-        this.view.flxSegProducts.isVisible = false;
-        this.view.flxContainerNewProduct.isVisible = false;
-        this.view.flxContainerTotal.isVisible = false;
-        this.view.flxEmptyCart.isVisible = true;
+        kony.timer.schedule("afterCartEmpty", () => {
+          this.view.flxSegProducts.isVisible = false;
+          this.view.flxContainerNewProduct.isVisible = false;
+          this.view.flxContainerTotal.isVisible = false;
+          this.view.flxEmptyCart.isVisible = true;
+        }, 1.5, false);
       } 
     },
     setIdleTimeout(){

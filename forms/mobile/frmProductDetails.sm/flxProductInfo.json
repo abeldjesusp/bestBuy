@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "40%"
+        "value": "50%"
     },
     "_left_": {
         "type": "string",
@@ -49,6 +49,16 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "g3e45e0da9264384b2dabc86cc3cccc8",
+    "landscape": {
+        "left": {
+            "type": "string",
+            "value": "25%"
+        },
+        "width": {
+            "type": "string",
+            "value": "75%"
+        }
+    },
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxProductDatailContent",

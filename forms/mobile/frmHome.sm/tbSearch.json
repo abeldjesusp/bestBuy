@@ -27,7 +27,7 @@
     "_text_": "",
     "_width_": {
         "type": "string",
-        "value": "200dp"
+        "value": "90%"
     },
     "autocapitalize": "none",
     "autocomplete": false,
@@ -49,11 +49,11 @@
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardtype": "A",
-    "kuid": "a5792e7f73c24c99be6a6058af19a9b1",
+    "kuid": "cbdee80d744142689b84b18ced1cba42",
     "mode": "A",
     "name": "kony.ui.TextBox2",
-    "parent": "flxSearchArea",
-    "pf": "userwidgetmodel",
+    "parent": "flxContainerTB",
+    "pf": "frmHome",
     "placeholderskin": "sd7ecfd9c6534357912053cda4ab0e6e",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

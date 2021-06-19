@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "10dp"
+        "value": "3%"
     },
     "_margin_": [
         0,
@@ -27,7 +27,7 @@
     "_text_": "",
     "_width_": {
         "type": "string",
-        "value": "230dp"
+        "value": "40%"
     },
     "autocapitalize": "none",
     "autocomplete": false,

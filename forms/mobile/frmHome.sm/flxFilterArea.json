@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "72%"
+        "value": "10%"
     },
     "_left_": {
         "type": "string",
@@ -26,7 +26,7 @@
     "_skin_": "s9e375c0aee34a21a6dbd8a5de407377",
     "_top_": {
         "type": "string",
-        "value": "8%"
+        "value": "10%"
     },
     "_width_": {
         "type": "string",
@@ -36,30 +36,31 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "segProduct"
+        "flxContainerLabel",
+        "flxContainerLB"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxSegProducts",
+    "id": "flxFilterArea",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "hbeecdc33710409a8e9a0bd633b2d4b3",
+    "kuid": "e0a3e03869114d8abfec6f5485319c91",
     "landscape": {
         "height": {
             "type": "string",
-            "value": "65%"
+            "value": "30%"
         },
         "top": {
             "type": "string",
-            "value": "15%"
+            "value": "20%"
         }
     },
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxContainerCart",
-    "pf": "frmCart",
+    "parent": "flxContainerSearch",
+    "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
@@ -67,5 +68,5 @@
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 10
+    "zindex": 1
 }

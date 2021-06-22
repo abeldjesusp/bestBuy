@@ -80,10 +80,17 @@ define(function(){
       };
       var animDefinition = kony.ui.createAnimation(animDefinitionOne);
       var animConfig = {
-        "duration": 0.5,
+        "duration": 1,
         "iterationCount": 1,
         "delay": 0,
         "fillMode": kony.anim.NONE
+      };
+      var config = {
+        "duration": 0.8,
+        "delay": 0,
+        "fillMode": kony.anim.FILL_MODE_FORWARDS,
+        "iterationCount": "2",
+        "direction": kony.anim.DIRECTION_ALTERNATE
       };
       var animationObject = {
         definition: animDefinition,
@@ -96,7 +103,7 @@ define(function(){
       let monto = Number(product.lblPrice.text.replace('$ ',''));
       let total = Number(this.view.lblTotalPrice.text) - monto;
       
-      this.view.flxTotal.animate(totalAnimation(), animConfig);
+      this.view.flxTotal.animate(totalAnimation(), config);
       this.view.lblTotalPrice.text = total.toFixed(2);
       
       cartItems.splice(context.rowIndex, 1);
@@ -121,7 +128,7 @@ define(function(){
           this.view.flxContainerNewProduct.isVisible = false;
           this.view.flxContainerTotal.isVisible = false;
           this.view.flxEmptyCart.isVisible = true;
-        }, 1.5, false);
+        }, 1, false);
       } 
     },
     setIdleTimeout(){

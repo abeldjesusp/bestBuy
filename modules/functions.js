@@ -54,7 +54,7 @@ function segmentAnimation() {
   var config = {
     "duration": 0.4,
     "delay": 0,
-    "fillMode": kony.anim.FILL_MODE_FORWARDS,
+    "fillMode": kony.anim.FILL_MODE_FORWARDS
   };
   
   return {
@@ -67,18 +67,11 @@ function segmentAnimation() {
 }
   
 function totalAnimation() {
-  var transformProp1 = kony.ui.makeAffineTransform();
-  transformProp1.rotate(0);
-  var transformProp2 = kony.ui.makeAffineTransform();
-  transformProp2.rotate3D(360, 0, 1, 0);
-  var transformProp3 = kony.ui.makeAffineTransform();
-  transformProp3.rotate(90);
+  var transformProp = kony.ui.makeAffineTransform();
+  transformProp.rotate3D(90, 0, 1, 0);
   var animDefinitionOne = {
-    /*0: {
-      "transform": transformProp1
-    },*/
     100: {
-      "transform": transformProp2
+      "transform": transformProp
     }
   };
   animDef = kony.ui.createAnimation(animDefinitionOne);

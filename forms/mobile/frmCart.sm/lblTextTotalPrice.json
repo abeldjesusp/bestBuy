@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "sea2e131e8764c28932c9215d78be2b3",
-    "_text_": "Total: $",
+    "_text_": "$",
     "_width_": {
         "type": "ref",
         "value": "preferred"

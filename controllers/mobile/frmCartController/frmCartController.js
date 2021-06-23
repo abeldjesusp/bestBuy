@@ -86,7 +86,7 @@ define(function(){
         "fillMode": kony.anim.NONE
       };
       var config = {
-        "duration": 0.8,
+        "duration": 0.6,
         "delay": 0,
         "fillMode": kony.anim.FILL_MODE_FORWARDS,
         "iterationCount": "2",
@@ -105,6 +105,7 @@ define(function(){
       
       this.view.flxTotal.animate(totalAnimation(), config);
       this.view.lblTotalPrice.text = total.toFixed(2);
+      
       
       cartItems.splice(context.rowIndex, 1);
       
@@ -128,7 +129,7 @@ define(function(){
           this.view.flxContainerNewProduct.isVisible = false;
           this.view.flxContainerTotal.isVisible = false;
           this.view.flxEmptyCart.isVisible = true;
-        }, 1, false);
+        }, 1.3, false);
       } 
     },
     setIdleTimeout(){

@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "48%"
+        "value": "56%"
     },
     "_margin_": [
         0,
@@ -26,7 +26,7 @@
     "_skin_": "s9e375c0aee34a21a6dbd8a5de407377",
     "_width_": {
         "type": "string",
-        "value": "150dp"
+        "value": "120dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -64,5 +64,5 @@
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 1
+    "zindex": 10
 }

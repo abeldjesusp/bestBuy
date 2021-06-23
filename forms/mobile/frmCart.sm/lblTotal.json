@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "13dp"
+        "value": "42%"
     },
     "_margin_": [
         1,
@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "sea2e131e8764c28932c9215d78be2b3",
-    "_text_": "0.00",
+    "_text_": "Total: ",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -42,7 +42,7 @@
     },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblTotalPrice",
+    "id": "lblTotal",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,9 +56,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ce483409ad9742778eaf271eb14948b5",
+    "kuid": "h4a841d66012406c83e9c40a3c929c6d",
     "name": "kony.ui.Label",
-    "parent": "flxTotal",
+    "parent": "flxContainerTotal",
     "pf": "frmCart",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

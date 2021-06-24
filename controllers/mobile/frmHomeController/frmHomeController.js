@@ -1,9 +1,11 @@
 define(function(){
   return({
-    onNavigate : function(){    
+    onNavigate : function(){
+      
       if(categories.length > 0){
         this.setSegment(categories[categories.length-1]);
       } else {
+        this.view.flxHomeContainer.isVisible = true;
         this.view.flxSegContainer.isVisible = false;
       	this.view.loading.isVisible = true;
         this.view.navbar.flxBackButton.isVisible = false;
@@ -121,9 +123,12 @@ define(function(){
       };
       
       var animDef = kony.ui.createAnimation(animDefinition);
-      this.view.flxContainerSearch.animate(animDef, animationConfig);
+      this.view.flxContainerSearch.animate(animDef, animationConfig, {"animationEnd":() => {
+        this.view.flxHomeContainer.isVisible = false;
+      }});
     },
     cancelSearchButton : function(){
+      this.view.flxHomeContainer.isVisible = true;
       //Create the animation configuration.
       var animationConfig = {
         "duration": 0.6,
@@ -210,12 +215,12 @@ define(function(){
       this.view.flxMenuOverlay.isVisible = false;
     },
     onClickAppMenu : function(seguiWidget, sectionNumber, rowNumber, selectedState){
+      categories = [];
       onRowClickMenuApp(rowNumber);
       this.view.flxHomeContainer.left = "0%";
       this.view.flxContainerAppMenu.left = "-80%";
       this.view.flxMenuOverlay.isVisible = false;
       this.view.navbar.flxBackButton.isVisible = false;
-      categories = [];
     }
   });
 

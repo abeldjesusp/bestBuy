@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "-100%"
+        "value": "0%"
     },
     "_height_": {
         "type": "string",
@@ -45,7 +45,7 @@
     "id": "flxContainerSearch",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": false,
+    "isvisible": true,
     "kuid": "d033e3d309874d11b9fe9024018a834f",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
@@ -58,5 +58,5 @@
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 10
+    "zindex": 100
 }

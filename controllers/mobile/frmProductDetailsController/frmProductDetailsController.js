@@ -3,6 +3,14 @@ define(function(){
   
   return({
 	onNavigate : function(context){
+      this.view.flxDownArrow.bottom = '85%';
+      this.view.flxDownArrow.isVisible = false;
+
+      this.view.flxUpArrow.bottom = '5%';
+      this.view.flxUpArrow.isVisible = true;
+
+      this.view.segReviews.bottom = '-90%';
+      
       if(context){
         product = context;
         let productPrice = null;
